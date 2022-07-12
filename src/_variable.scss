@@ -1,0 +1,13 @@
+@mixin flex ($display:flex, $direction:row, $just_cont:space-between, $align-items:center) {
+    display: $display;
+    flex-direction: $direction;
+    justify-content: $just_cont;
+    align-items: $align-items;
+}
+
+@mixin flex-col ($display:flex, $direction:column, $just_cont:space-between, $align-items:center) {
+    display: $display;
+    flex-direction: $direction;
+    justify-content: $just_cont;
+    align-items: $align-items;
+}
